@@ -1,6 +1,6 @@
 #include <string>
 using namespace std;
-
+// using two pointer method..
 bool isPalindrom (const std::string& str)
 {
   
