@@ -15,3 +15,5 @@ int countLettersAndDigits(std::string input)
   }
     return digitCount+ alphaCount;
 }
+// instead of two if conditions , we can use a direct function "isalnum()" 
+// checks if a character is 'A to Z' or 'a to z' or '0-9' .
