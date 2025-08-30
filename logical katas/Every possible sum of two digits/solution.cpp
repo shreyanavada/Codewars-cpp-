@@ -1,4 +1,4 @@
-//brute force: where time complexity is O(n^2) and space complexity is O(n) .
+//brute force: where time complexity is O(n^2) and space complexity is O(n^2) .
 using namespace std;
 std::vector<int> digits(int n){
   vector<int> arr; // to store the seperate characters of n in array .
