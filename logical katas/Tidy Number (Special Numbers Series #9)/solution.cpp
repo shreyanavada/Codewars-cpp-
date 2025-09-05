@@ -1,4 +1,3 @@
-//brute force method : where it iterates through each element
 
 #include <string>
 using namespace std; 
