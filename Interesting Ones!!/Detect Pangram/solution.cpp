@@ -10,7 +10,7 @@ bool is_pangram(const std::string& s) {
       if( isalpha(s[i]) )
       {
       char c = tolower(s[i]);
-      m.insert( c );      // insertion into the unordered set takes O(1) time .
+      m.insert( c ) ;      // insertion into the unordered set takes O(1) time .
       }
   }
   if( m.size() == 26 ) // here also m.size() takes O(1) time .
